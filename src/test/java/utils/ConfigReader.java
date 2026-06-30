@@ -6,7 +6,7 @@ import java.util.Properties;
 public class ConfigReader {
 
     Properties p;
-    public static final String config_file_path=".\\RestAssuredFramework_StoreApi\\config.properties";
+    public static final String config_file_path="C:\\Users\\Happy\\IdeaProjects\\RestAssuredFramework_StoreApi\\config.properties";
 
     public void configFileLoad(){
         p=new Properties();
