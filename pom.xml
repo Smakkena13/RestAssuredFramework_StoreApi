@@ -8,7 +8,6 @@
     <artifactId>RestAssuredFramework_StoreApi</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
-        <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -23,13 +22,18 @@
                         <suiteXmlFiles>
                             <suiteXmlFile>testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
+                        <argLine>
+                            -javaagent:"C:\Users\Happy\.m2\repository\org\aspectj\aspectjweaver\1.9.20\aspectjweaver-1.9.20.jar"
+                        </argLine>
                     </configuration>
                 </plugin>
             </plugins>
-        </pluginManagement>
     </build>
     <!--  Here you can change the versions in future  -->
     <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <rest-assured-version>5.5.0</rest-assured-version>
         <testng-version>7.10.2</testng-version>
         <json-path-version>5.5.0</json-path-version>
@@ -42,6 +46,7 @@
         <jackson-databind-version>2.18.2</jackson-databind-version>
         <allure-testng-version>2.35.2</allure-testng-version>
         <extentreports-version>5.1.2</extentreports-version>
+        <aspectjweaver-version>1.9.20</aspectjweaver-version>
     </properties>
     <dependencies>
         <dependency>
@@ -111,6 +116,11 @@
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>${extentreports-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectjweaver-version}</version>
         </dependency>
     </dependencies>
 

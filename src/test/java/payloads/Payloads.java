@@ -1,9 +1,7 @@
 package payloads;
 
 import com.github.javafaker.Faker;
-import pojo.CartPojo;
-import pojo.ProductPojo;
-import pojo.UserPojo;
+import pojo.*;
 
 import java.util.Random;
 
@@ -33,11 +31,29 @@ public class Payloads {
 
     //user
     public UserPojo UserPayload(){
+
+        String firstname=faker.name().firstName();
+        String lastname=faker.name().lastName();
+
+        Name name=new Name(firstname,lastname);
+
+        String lat=faker.address().latitude();
+        String log=faker.address().longitude();
+
+        Geolocation geolocation=new Geolocation(lat,log);
+
+        String city=faker.address().city();
+        String street=faker.address().streetName();
+        int number=rm.nextInt(20);
+        String zipcode=faker.address().zipCode();
+
+        Address address=new Address(city,street,number,zipcode,geolocation);
+
         String email=faker.internet().emailAddress();
         String username=faker.name().fullName();
-        String password=faker.finance().toString();
+        String password=faker.internet().password();
         String phone=faker.phoneNumber().cellPhone();
 
-        return new UserPojo(email,username,password,phone);
+        return new UserPojo(email,username,password,name,address,phone);
     }
 }

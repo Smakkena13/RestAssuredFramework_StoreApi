@@ -2,17 +2,47 @@ package pojo;
 
 public class UserPojo {
 
-    public UserPojo(String email,String username,String password,String phone){
+    public UserPojo(String email,String username,String password,Name name,Address address,String phone){
         this.email=email;
         this.username=username;
         this.password=password;
+        this.name=name;
+        this.address=address;
         this.phone=phone;
     }
 
     private String email;
     private String username;
     private String password;
+    private Name name;
+    private Address address;
     private String phone;
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    public Geolocation getGeolocation() {
+        return geolocation;
+    }
+
+    public void setGeolocation(Geolocation geolocation) {
+        this.geolocation = geolocation;
+    }
+
+    private Geolocation geolocation;
+
+    public Name getName() {
+        return name;
+    }
+
+    public void setName(Name name) {
+        this.name = name;
+    }
 
     public String getEmail() {
         return email;

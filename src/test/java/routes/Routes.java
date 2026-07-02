@@ -31,6 +31,7 @@ public class Routes {
     public static final String POST_GENERATE_TOKEN="/auth/login";
     public static final String GET_SINGLE_USER="/users/{id}";
     public static final String GET_ALL_USERS="/users";
+    public static final String GET_SORTED_USERS="/users?sort={order}";
     public static final String POST_NEW_USER="/users";
     public static final String PUT_UPDATE_USER="/users/{id}";
     public static final String PATCH_UPDATE_USER="/users/{id}";

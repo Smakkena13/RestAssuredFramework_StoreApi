@@ -25,7 +25,7 @@ public class ProductTests extends BaseClass{
 
     @Test
     void testGetProductById(){
-        int prodid=cf.getConfigNumProperty("product_id");
+        int prodid=cf.getConfigNumProperty("productId");
 
         given()
                 .pathParam("id",prodid)
