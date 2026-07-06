@@ -1,5 +1,5 @@
 Request method:	POST
-Request URI:	https://fakestoreapi.com/products
+Request URI:	https://fakestoreapi.com/users
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -11,37 +11,982 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "title": "Wireless Mouse",
-    "price": 25.99,
-    "description": "Ergonomic wireless mouse with adjustable DPI.",
-    "category": "electronic",
-    "image": "https://i.pravatar.cc/100"
+    "email": "shonda.larson@yahoo.com",
+    "username": "Bart Weber",
+    "password": "18rns1bq30",
+    "name": {
+        "firstname": "Anita",
+        "lastname": "Abshire"
+    },
+    "address": {
+        "city": "Port Zachariahmouth",
+        "street": "Derek Streets",
+        "number": 0,
+        "zipcode": "69349-0458",
+        "geolocation": {
+            "lat": "75.629643",
+            "log": "-71.849002"
+        }
+    },
+    "phone": "(251) 055-7081",
+    "geolocation": null
 }
 HTTP/1.1 201 Created
-Date: Thu, 02 Jul 2026 06:10:03 GMT
+Date: Fri, 03 Jul 2026 06:04:02 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 170
+Content-Length: 8
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"aa-2s4ER7pcE44Unm4fsx7WRXafGXE"
+Etag: W/"8-h5EdGu1QmHe4OkjsU292jNzSLfE"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=9X2Celqpt5ELbccsuEklhdH2M4QcbMTdUFgAENiwBTlZHprKqFKvFEcDYxx0EqqdnUirSbjtvJdvD1lFt7fIw7a2opfY9WWcIH4hhTpuWHWcRKQd3iNQG67kHNJhx%2BlNU3X%2F"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bCYO8%2FhjdY9dlOH2t%2B9EkQVbR14R3p%2BbcWgRO58Z2ri0lYMXjw%2B5ml2k96CO0ULPj8YX1BxV9csJq1SjnKjTadJyk15u5bytLTs18VDkAptoGR%2FtFS5c%2BsjNoDwKK5OTnHS1"}]}
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Server: cloudflare
-CF-RAY: a14b7c34ce481dad-SIN
+CF-RAY: a153b0be4ae0fdea-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
-    "id": 21,
-    "title": "Wireless Mouse",
-    "price": 25.99,
-    "description": "Ergonomic wireless mouse with adjustable DPI.",
-    "image": "https://i.pravatar.cc/100",
-    "category": "electronic"
+    "id": 1
 }
-Request method:	POST
-Request URI:	https://fakestoreapi.com/products
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 06:04:02 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MXD8i28LKZq4XNLNTNnSCi5VdZFxm9eTF2C4bJ6OlORCCCs%2FAyt%2F9jFc%2B%2BpQqtPdgKgYZfiQuGSXqffw1LPEHC8wTzpH44SaCOWRuTy6gGrs%2FybMgjRqylRKtM81LlWAwUx0"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a153b0c1cad7fe23-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 06:04:03 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"bae-Vi0JNVg0EAD6LcGk4v18ASK0bgA"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=iNhG2kbWUzrAprKJV6gSjOoWXSNcJ2TY%2FRFHAfFdTA6LYUCLK44hK071NTiC51ZcSl2IsHk3F9k53eV4paOfrdhN%2FHZWVcHNzNG9MD5xlEksmj2lYeJbUlH%2B%2F5FQoW%2FPriyL"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a153b0c51af197a7-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "new road",
+            "number": 7682,
+            "zipcode": "12926-3874"
+        },
+        "id": 1,
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": {
+            "firstname": "john",
+            "lastname": "doe"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "Lovers Ln",
+            "number": 7267,
+            "zipcode": "12926-3874"
+        },
+        "id": 2,
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        "name": {
+            "firstname": "david",
+            "lastname": "morrison"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-30.1310"
+            },
+            "city": "Cullman",
+            "street": "Frances Ct",
+            "number": 86,
+            "zipcode": "29567-1452"
+        },
+        "id": 3,
+        "email": "kevin@gmail.com",
+        "username": "kevinryan",
+        "password": "kev02937@",
+        "name": {
+            "firstname": "kevin",
+            "lastname": "ryan"
+        },
+        "phone": "1-567-094-1345",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3467",
+                "long": "-20.1310"
+            },
+            "city": "San Antonio",
+            "street": "Hunters Creek Dr",
+            "number": 6454,
+            "zipcode": "98234-1734"
+        },
+        "id": 4,
+        "email": "don@gmail.com",
+        "username": "donero",
+        "password": "ewedon",
+        "name": {
+            "firstname": "don",
+            "lastname": "romer"
+        },
+        "phone": "1-765-789-6734",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-40.1310"
+            },
+            "city": "san Antonio",
+            "street": "adams St",
+            "number": 245,
+            "zipcode": "80796-1234"
+        },
+        "id": 5,
+        "email": "derek@gmail.com",
+        "username": "derek",
+        "password": "jklg*_56",
+        "name": {
+            "firstname": "derek",
+            "lastname": "powell"
+        },
+        "phone": "1-956-001-1945",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "20.1677",
+                "long": "-10.6789"
+            },
+            "city": "el paso",
+            "street": "prospect st",
+            "number": 124,
+            "zipcode": "12346-0456"
+        },
+        "id": 6,
+        "email": "david_r@gmail.com",
+        "username": "david_r",
+        "password": "3478*#54",
+        "name": {
+            "firstname": "david",
+            "lastname": "russell"
+        },
+        "phone": "1-678-345-9856",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "10.3456",
+                "long": "20.6419"
+            },
+            "city": "fresno",
+            "street": "saddle st",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 7,
+        "email": "miriam@gmail.com",
+        "username": "snyder",
+        "password": "f238&@*$",
+        "name": {
+            "firstname": "miriam",
+            "lastname": "snyder"
+        },
+        "phone": "1-123-943-0563",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3456",
+                "long": "10.6419"
+            },
+            "city": "mesa",
+            "street": "vally view ln",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 8,
+        "email": "william@gmail.com",
+        "username": "hopkins",
+        "password": "William56$hj",
+        "name": {
+            "firstname": "william",
+            "lastname": "hopkins"
+        },
+        "phone": "1-478-001-0890",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.12456",
+                "long": "20.5419"
+            },
+            "city": "miami",
+            "street": "avondale ave",
+            "number": 345,
+            "zipcode": "96378-0245"
+        },
+        "id": 9,
+        "email": "kate@gmail.com",
+        "username": "kate_h",
+        "password": "kfejk@*_",
+        "name": {
+            "firstname": "kate",
+            "lastname": "hale"
+        },
+        "phone": "1-678-456-1934",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "30.24788",
+                "long": "-20.545419"
+            },
+            "city": "fort wayne",
+            "street": "oak lawn ave",
+            "number": 526,
+            "zipcode": "10256-4532"
+        },
+        "id": 10,
+        "email": "jimmie@gmail.com",
+        "username": "jimmie_k",
+        "password": "klein*#%*",
+        "name": {
+            "firstname": "jimmie",
+            "lastname": "klein"
+        },
+        "phone": "1-104-001-4567",
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users?sort=asc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=asc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 06:04:03 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"bae-Vi0JNVg0EAD6LcGk4v18ASK0bgA"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XNp%2FuBFVBpqTGDBgHPIK9Fx0DdRxgGe5L7Q6c8tmQvPoxFjy6b0zwtUpd3BjQPF6lgFCWcPqQroy92yns2qZ1uY2b86v2mLqAX8uACZugUNlct6f8x6HhYdL%2FnHr81b0WW%2B6"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a153b0c81b6ff894-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "new road",
+            "number": 7682,
+            "zipcode": "12926-3874"
+        },
+        "id": 1,
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": {
+            "firstname": "john",
+            "lastname": "doe"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "Lovers Ln",
+            "number": 7267,
+            "zipcode": "12926-3874"
+        },
+        "id": 2,
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        "name": {
+            "firstname": "david",
+            "lastname": "morrison"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-30.1310"
+            },
+            "city": "Cullman",
+            "street": "Frances Ct",
+            "number": 86,
+            "zipcode": "29567-1452"
+        },
+        "id": 3,
+        "email": "kevin@gmail.com",
+        "username": "kevinryan",
+        "password": "kev02937@",
+        "name": {
+            "firstname": "kevin",
+            "lastname": "ryan"
+        },
+        "phone": "1-567-094-1345",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3467",
+                "long": "-20.1310"
+            },
+            "city": "San Antonio",
+            "street": "Hunters Creek Dr",
+            "number": 6454,
+            "zipcode": "98234-1734"
+        },
+        "id": 4,
+        "email": "don@gmail.com",
+        "username": "donero",
+        "password": "ewedon",
+        "name": {
+            "firstname": "don",
+            "lastname": "romer"
+        },
+        "phone": "1-765-789-6734",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-40.1310"
+            },
+            "city": "san Antonio",
+            "street": "adams St",
+            "number": 245,
+            "zipcode": "80796-1234"
+        },
+        "id": 5,
+        "email": "derek@gmail.com",
+        "username": "derek",
+        "password": "jklg*_56",
+        "name": {
+            "firstname": "derek",
+            "lastname": "powell"
+        },
+        "phone": "1-956-001-1945",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "20.1677",
+                "long": "-10.6789"
+            },
+            "city": "el paso",
+            "street": "prospect st",
+            "number": 124,
+            "zipcode": "12346-0456"
+        },
+        "id": 6,
+        "email": "david_r@gmail.com",
+        "username": "david_r",
+        "password": "3478*#54",
+        "name": {
+            "firstname": "david",
+            "lastname": "russell"
+        },
+        "phone": "1-678-345-9856",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "10.3456",
+                "long": "20.6419"
+            },
+            "city": "fresno",
+            "street": "saddle st",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 7,
+        "email": "miriam@gmail.com",
+        "username": "snyder",
+        "password": "f238&@*$",
+        "name": {
+            "firstname": "miriam",
+            "lastname": "snyder"
+        },
+        "phone": "1-123-943-0563",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3456",
+                "long": "10.6419"
+            },
+            "city": "mesa",
+            "street": "vally view ln",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 8,
+        "email": "william@gmail.com",
+        "username": "hopkins",
+        "password": "William56$hj",
+        "name": {
+            "firstname": "william",
+            "lastname": "hopkins"
+        },
+        "phone": "1-478-001-0890",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.12456",
+                "long": "20.5419"
+            },
+            "city": "miami",
+            "street": "avondale ave",
+            "number": 345,
+            "zipcode": "96378-0245"
+        },
+        "id": 9,
+        "email": "kate@gmail.com",
+        "username": "kate_h",
+        "password": "kfejk@*_",
+        "name": {
+            "firstname": "kate",
+            "lastname": "hale"
+        },
+        "phone": "1-678-456-1934",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "30.24788",
+                "long": "-20.545419"
+            },
+            "city": "fort wayne",
+            "street": "oak lawn ave",
+            "number": 526,
+            "zipcode": "10256-4532"
+        },
+        "id": 10,
+        "email": "jimmie@gmail.com",
+        "username": "jimmie_k",
+        "password": "klein*#%*",
+        "name": {
+            "firstname": "jimmie",
+            "lastname": "klein"
+        },
+        "phone": "1-104-001-4567",
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users?sort=desc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=desc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 06:04:04 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"bae-RmXgfZyGPwU9Dh6EKhIQkuNoVzY"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lg%2BN5vGlB4XJRmtfmQnb2Y6ZFp6dRjJhi2pZSjieVq6z75pxdl8AVRRWgMMK7bnfR7%2BRPqDl5LjKnWJkRIx9aM%2FKsqyFOkPwkxB4GrjDovp%2B9He2U3e95W4%2BEGe2vksPiwrt"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a153b0cb4f8b14b5-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "address": {
+            "geolocation": {
+                "lat": "30.24788",
+                "long": "-20.545419"
+            },
+            "city": "fort wayne",
+            "street": "oak lawn ave",
+            "number": 526,
+            "zipcode": "10256-4532"
+        },
+        "id": 10,
+        "email": "jimmie@gmail.com",
+        "username": "jimmie_k",
+        "password": "klein*#%*",
+        "name": {
+            "firstname": "jimmie",
+            "lastname": "klein"
+        },
+        "phone": "1-104-001-4567",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.12456",
+                "long": "20.5419"
+            },
+            "city": "miami",
+            "street": "avondale ave",
+            "number": 345,
+            "zipcode": "96378-0245"
+        },
+        "id": 9,
+        "email": "kate@gmail.com",
+        "username": "kate_h",
+        "password": "kfejk@*_",
+        "name": {
+            "firstname": "kate",
+            "lastname": "hale"
+        },
+        "phone": "1-678-456-1934",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3456",
+                "long": "10.6419"
+            },
+            "city": "mesa",
+            "street": "vally view ln",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 8,
+        "email": "william@gmail.com",
+        "username": "hopkins",
+        "password": "William56$hj",
+        "name": {
+            "firstname": "william",
+            "lastname": "hopkins"
+        },
+        "phone": "1-478-001-0890",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "10.3456",
+                "long": "20.6419"
+            },
+            "city": "fresno",
+            "street": "saddle st",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 7,
+        "email": "miriam@gmail.com",
+        "username": "snyder",
+        "password": "f238&@*$",
+        "name": {
+            "firstname": "miriam",
+            "lastname": "snyder"
+        },
+        "phone": "1-123-943-0563",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "20.1677",
+                "long": "-10.6789"
+            },
+            "city": "el paso",
+            "street": "prospect st",
+            "number": 124,
+            "zipcode": "12346-0456"
+        },
+        "id": 6,
+        "email": "david_r@gmail.com",
+        "username": "david_r",
+        "password": "3478*#54",
+        "name": {
+            "firstname": "david",
+            "lastname": "russell"
+        },
+        "phone": "1-678-345-9856",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-40.1310"
+            },
+            "city": "san Antonio",
+            "street": "adams St",
+            "number": 245,
+            "zipcode": "80796-1234"
+        },
+        "id": 5,
+        "email": "derek@gmail.com",
+        "username": "derek",
+        "password": "jklg*_56",
+        "name": {
+            "firstname": "derek",
+            "lastname": "powell"
+        },
+        "phone": "1-956-001-1945",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3467",
+                "long": "-20.1310"
+            },
+            "city": "San Antonio",
+            "street": "Hunters Creek Dr",
+            "number": 6454,
+            "zipcode": "98234-1734"
+        },
+        "id": 4,
+        "email": "don@gmail.com",
+        "username": "donero",
+        "password": "ewedon",
+        "name": {
+            "firstname": "don",
+            "lastname": "romer"
+        },
+        "phone": "1-765-789-6734",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-30.1310"
+            },
+            "city": "Cullman",
+            "street": "Frances Ct",
+            "number": 86,
+            "zipcode": "29567-1452"
+        },
+        "id": 3,
+        "email": "kevin@gmail.com",
+        "username": "kevinryan",
+        "password": "kev02937@",
+        "name": {
+            "firstname": "kevin",
+            "lastname": "ryan"
+        },
+        "phone": "1-567-094-1345",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "Lovers Ln",
+            "number": 7267,
+            "zipcode": "12926-3874"
+        },
+        "id": 2,
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        "name": {
+            "firstname": "david",
+            "lastname": "morrison"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "new road",
+            "number": 7682,
+            "zipcode": "12926-3874"
+        },
+        "id": 1,
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": {
+            "firstname": "john",
+            "lastname": "doe"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    }
+]
+Request method:	PUT
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "iris.jones@gmail.com",
+    "username": "Ina Jones",
+    "password": "xt7mqopj1",
+    "name": {
+        "firstname": "Marivel",
+        "lastname": "Wintheiser"
+    },
+    "address": {
+        "city": "Moseland",
+        "street": "Jolanda Club",
+        "number": 11,
+        "zipcode": "87786",
+        "geolocation": {
+            "lat": "20.842385",
+            "log": "-7.8563867"
+        }
+    },
+    "phone": "(911) 222-4895",
+    "geolocation": null
+}
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 06:04:04 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"13a-H+EifCs2dcFpP+J2AUZvi6n+bNE"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Rf1RBXv77984egtGWWSSuwshNnvEQ1M%2Bqy1lFBuXGp3Nei1Ul%2Blf9OhdBqG9r8gX5Bt4m0zEWChDScoIyiAmNeqQne7xseq%2Bf9kUFbMYbB6mdYSC%2Bp13OcCzOtVmXPOd3k8k"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a153b0ce9ee6f8dc-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "email": "iris.jones@gmail.com",
+    "username": "Ina Jones",
+    "password": "xt7mqopj1",
+    "name": {
+        "firstname": "Marivel",
+        "lastname": "Wintheiser"
+    },
+    "address": {
+        "city": "Moseland",
+        "street": "Jolanda Club",
+        "number": 11,
+        "zipcode": "87786",
+        "geolocation": {
+            "lat": "20.842385",
+            "log": "-7.8563867"
+        }
+    },
+    "phone": "(911) 222-4895",
+    "geolocation": null
+}
+Request method:	PATCH
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "loni.west@hotmail.com",
+    "username": "Moises Sauer",
+    "password": "bxhol3yg6",
+    "name": {
+        "firstname": "Jarrett",
+        "lastname": "Hahn"
+    },
+    "address": {
+        "city": "South Seanfort",
+        "street": "Clint Overpass",
+        "number": 6,
+        "zipcode": "08819-0309",
+        "geolocation": {
+            "lat": "53.667656",
+            "log": "94.101843"
+        }
+    },
+    "phone": "338-148-2478",
+    "geolocation": null
+}
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 06:04:04 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"141-Py3/M1zK5GJFmtval3PSXuDD7dY"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ChrkWRjwzcnkt1sDk8wxG%2FvFE5YnhkNqyucAIbNpWt0hPiYq3OhjKAvFeLbBzxZOJL5T7ynKnPgCjQ4gddncGPgSR6T46EAMts9xOpgyu2LskvSM%2FeaPswUNzPLYDqRp9Tfs"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a153b0d10f75f916-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "email": "loni.west@hotmail.com",
+    "username": "Moises Sauer",
+    "password": "bxhol3yg6",
+    "name": {
+        "firstname": "Jarrett",
+        "lastname": "Hahn"
+    },
+    "address": {
+        "city": "South Seanfort",
+        "street": "Clint Overpass",
+        "number": 6,
+        "zipcode": "08819-0309",
+        "geolocation": {
+            "lat": "53.667656",
+            "log": "94.101843"
+        }
+    },
+    "phone": "338-148-2478",
+    "geolocation": null
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Request method:	POST
+Request URI:	https://fakestoreapi.com/users
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -53,158 +998,977 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "title": "Gaming Keyboard",
-    "price": 49.99,
-    "description": "Mechanical gaming keyboard with RGB backlight.",
-    "category": "electronic",
-    "image": "https://i.pravatar.cc/101"
+    "email": "shonda.larson@yahoo.com",
+    "username": "Bart Weber",
+    "password": "18rns1bq30",
+    "name": {
+        "firstname": "Anita",
+        "lastname": "Abshire"
+    },
+    "address": {
+        "city": "Port Zachariahmouth",
+        "street": "Derek Streets",
+        "number": 0,
+        "zipcode": "69349-0458",
+        "geolocation": {
+            "lat": "75.629643",
+            "log": "-71.849002"
+        }
+    },
+    "phone": "(251) 055-7081",
+    "geolocation": null
 }
 HTTP/1.1 201 Created
-Date: Thu, 02 Jul 2026 06:10:04 GMT
+Date: Fri, 03 Jul 2026 06:04:02 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 172
+Content-Length: 8
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"ac-ndnF/0854GxNZKo6UJkXi4Xiqyo"
+Etag: W/"8-h5EdGu1QmHe4OkjsU292jNzSLfE"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0ZHYVFqAUYt1RafcCt3Hvj9pwUw8QDLRL7%2Bu8xdyB11qkW1bYi4d9w1umYPvHp8FH4sGxGqMj0zMMer09kt5ee407IHV5n4jXHXVL%2Baymd%2FhGDIWzPqtnSYwhd7llaIrnNCy"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bCYO8%2FhjdY9dlOH2t%2B9EkQVbR14R3p%2BbcWgRO58Z2ri0lYMXjw%2B5ml2k96CO0ULPj8YX1BxV9csJq1SjnKjTadJyk15u5bytLTs18VDkAptoGR%2FtFS5c%2BsjNoDwKK5OTnHS1"}]}
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Server: cloudflare
-CF-RAY: a14b7c39fc68fdfa-SIN
+CF-RAY: a153b0be4ae0fdea-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
-    "id": 21,
-    "title": "Gaming Keyboard",
-    "price": 49.99,
-    "description": "Mechanical gaming keyboard with RGB backlight.",
-    "image": "https://i.pravatar.cc/101",
-    "category": "electronic"
+    "id": 1
 }
-Request method:	POST
-Request URI:	https://fakestoreapi.com/products
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 06:04:02 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MXD8i28LKZq4XNLNTNnSCi5VdZFxm9eTF2C4bJ6OlORCCCs%2FAyt%2F9jFc%2B%2BpQqtPdgKgYZfiQuGSXqffw1LPEHC8wTzpH44SaCOWRuTy6gGrs%2FybMgjRqylRKtM81LlWAwUx0"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a153b0c1cad7fe23-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
-				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:
-{
-    "title": "Bluetooth Headphones",
-    "price": 79.99,
-    "description": "Noise-canceling over-ear headphones with deep bass.",
-    "category": "electronics",
-    "image": "https://i.pravatar.cc/102"
-}
-HTTP/1.1 201 Created
-Date: Thu, 02 Jul 2026 06:10:05 GMT
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 06:04:03 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 183
+Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"b7-eZiT0+LD+gdUG1stxnuhd1rjbyY"
+Etag: W/"bae-Vi0JNVg0EAD6LcGk4v18ASK0bgA"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=d0RUSbsmkKmgImx2Ch%2FyH1AjB9P7aPSUYHcmz%2BmD%2BNgj30c2E6MSMthQ9WYSymd8ASHwPQrTfuPbbbDAJ2iencqEBjHThfMswTXI%2FyuNWBvMbVfJ56aROu%2BISlvwOD4aYB%2Bw"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=iNhG2kbWUzrAprKJV6gSjOoWXSNcJ2TY%2FRFHAfFdTA6LYUCLK44hK071NTiC51ZcSl2IsHk3F9k53eV4paOfrdhN%2FHZWVcHNzNG9MD5xlEksmj2lYeJbUlH%2B%2F5FQoW%2FPriyL"}]}
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a14b7c3c7e9562dc-SIN
+CF-RAY: a153b0c51af197a7-SIN
 alt-svc: h3=":443"; ma=86400
 
-{
-    "id": 21,
-    "title": "Bluetooth Headphones",
-    "price": 79.99,
-    "description": "Noise-canceling over-ear headphones with deep bass.",
-    "image": "https://i.pravatar.cc/102",
-    "category": "electronics"
-}
-Request method:	POST
-Request URI:	https://fakestoreapi.com/products
+[
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "new road",
+            "number": 7682,
+            "zipcode": "12926-3874"
+        },
+        "id": 1,
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": {
+            "firstname": "john",
+            "lastname": "doe"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "Lovers Ln",
+            "number": 7267,
+            "zipcode": "12926-3874"
+        },
+        "id": 2,
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        "name": {
+            "firstname": "david",
+            "lastname": "morrison"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-30.1310"
+            },
+            "city": "Cullman",
+            "street": "Frances Ct",
+            "number": 86,
+            "zipcode": "29567-1452"
+        },
+        "id": 3,
+        "email": "kevin@gmail.com",
+        "username": "kevinryan",
+        "password": "kev02937@",
+        "name": {
+            "firstname": "kevin",
+            "lastname": "ryan"
+        },
+        "phone": "1-567-094-1345",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3467",
+                "long": "-20.1310"
+            },
+            "city": "San Antonio",
+            "street": "Hunters Creek Dr",
+            "number": 6454,
+            "zipcode": "98234-1734"
+        },
+        "id": 4,
+        "email": "don@gmail.com",
+        "username": "donero",
+        "password": "ewedon",
+        "name": {
+            "firstname": "don",
+            "lastname": "romer"
+        },
+        "phone": "1-765-789-6734",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-40.1310"
+            },
+            "city": "san Antonio",
+            "street": "adams St",
+            "number": 245,
+            "zipcode": "80796-1234"
+        },
+        "id": 5,
+        "email": "derek@gmail.com",
+        "username": "derek",
+        "password": "jklg*_56",
+        "name": {
+            "firstname": "derek",
+            "lastname": "powell"
+        },
+        "phone": "1-956-001-1945",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "20.1677",
+                "long": "-10.6789"
+            },
+            "city": "el paso",
+            "street": "prospect st",
+            "number": 124,
+            "zipcode": "12346-0456"
+        },
+        "id": 6,
+        "email": "david_r@gmail.com",
+        "username": "david_r",
+        "password": "3478*#54",
+        "name": {
+            "firstname": "david",
+            "lastname": "russell"
+        },
+        "phone": "1-678-345-9856",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "10.3456",
+                "long": "20.6419"
+            },
+            "city": "fresno",
+            "street": "saddle st",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 7,
+        "email": "miriam@gmail.com",
+        "username": "snyder",
+        "password": "f238&@*$",
+        "name": {
+            "firstname": "miriam",
+            "lastname": "snyder"
+        },
+        "phone": "1-123-943-0563",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3456",
+                "long": "10.6419"
+            },
+            "city": "mesa",
+            "street": "vally view ln",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 8,
+        "email": "william@gmail.com",
+        "username": "hopkins",
+        "password": "William56$hj",
+        "name": {
+            "firstname": "william",
+            "lastname": "hopkins"
+        },
+        "phone": "1-478-001-0890",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.12456",
+                "long": "20.5419"
+            },
+            "city": "miami",
+            "street": "avondale ave",
+            "number": 345,
+            "zipcode": "96378-0245"
+        },
+        "id": 9,
+        "email": "kate@gmail.com",
+        "username": "kate_h",
+        "password": "kfejk@*_",
+        "name": {
+            "firstname": "kate",
+            "lastname": "hale"
+        },
+        "phone": "1-678-456-1934",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "30.24788",
+                "long": "-20.545419"
+            },
+            "city": "fort wayne",
+            "street": "oak lawn ave",
+            "number": 526,
+            "zipcode": "10256-4532"
+        },
+        "id": 10,
+        "email": "jimmie@gmail.com",
+        "username": "jimmie_k",
+        "password": "klein*#%*",
+        "name": {
+            "firstname": "jimmie",
+            "lastname": "klein"
+        },
+        "phone": "1-104-001-4567",
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users?sort=asc
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	<none>
+Path params:	order=asc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 06:04:03 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"bae-Vi0JNVg0EAD6LcGk4v18ASK0bgA"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XNp%2FuBFVBpqTGDBgHPIK9Fx0DdRxgGe5L7Q6c8tmQvPoxFjy6b0zwtUpd3BjQPF6lgFCWcPqQroy92yns2qZ1uY2b86v2mLqAX8uACZugUNlct6f8x6HhYdL%2FnHr81b0WW%2B6"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a153b0c81b6ff894-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "new road",
+            "number": 7682,
+            "zipcode": "12926-3874"
+        },
+        "id": 1,
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": {
+            "firstname": "john",
+            "lastname": "doe"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "Lovers Ln",
+            "number": 7267,
+            "zipcode": "12926-3874"
+        },
+        "id": 2,
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        "name": {
+            "firstname": "david",
+            "lastname": "morrison"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-30.1310"
+            },
+            "city": "Cullman",
+            "street": "Frances Ct",
+            "number": 86,
+            "zipcode": "29567-1452"
+        },
+        "id": 3,
+        "email": "kevin@gmail.com",
+        "username": "kevinryan",
+        "password": "kev02937@",
+        "name": {
+            "firstname": "kevin",
+            "lastname": "ryan"
+        },
+        "phone": "1-567-094-1345",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3467",
+                "long": "-20.1310"
+            },
+            "city": "San Antonio",
+            "street": "Hunters Creek Dr",
+            "number": 6454,
+            "zipcode": "98234-1734"
+        },
+        "id": 4,
+        "email": "don@gmail.com",
+        "username": "donero",
+        "password": "ewedon",
+        "name": {
+            "firstname": "don",
+            "lastname": "romer"
+        },
+        "phone": "1-765-789-6734",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-40.1310"
+            },
+            "city": "san Antonio",
+            "street": "adams St",
+            "number": 245,
+            "zipcode": "80796-1234"
+        },
+        "id": 5,
+        "email": "derek@gmail.com",
+        "username": "derek",
+        "password": "jklg*_56",
+        "name": {
+            "firstname": "derek",
+            "lastname": "powell"
+        },
+        "phone": "1-956-001-1945",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "20.1677",
+                "long": "-10.6789"
+            },
+            "city": "el paso",
+            "street": "prospect st",
+            "number": 124,
+            "zipcode": "12346-0456"
+        },
+        "id": 6,
+        "email": "david_r@gmail.com",
+        "username": "david_r",
+        "password": "3478*#54",
+        "name": {
+            "firstname": "david",
+            "lastname": "russell"
+        },
+        "phone": "1-678-345-9856",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "10.3456",
+                "long": "20.6419"
+            },
+            "city": "fresno",
+            "street": "saddle st",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 7,
+        "email": "miriam@gmail.com",
+        "username": "snyder",
+        "password": "f238&@*$",
+        "name": {
+            "firstname": "miriam",
+            "lastname": "snyder"
+        },
+        "phone": "1-123-943-0563",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3456",
+                "long": "10.6419"
+            },
+            "city": "mesa",
+            "street": "vally view ln",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 8,
+        "email": "william@gmail.com",
+        "username": "hopkins",
+        "password": "William56$hj",
+        "name": {
+            "firstname": "william",
+            "lastname": "hopkins"
+        },
+        "phone": "1-478-001-0890",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.12456",
+                "long": "20.5419"
+            },
+            "city": "miami",
+            "street": "avondale ave",
+            "number": 345,
+            "zipcode": "96378-0245"
+        },
+        "id": 9,
+        "email": "kate@gmail.com",
+        "username": "kate_h",
+        "password": "kfejk@*_",
+        "name": {
+            "firstname": "kate",
+            "lastname": "hale"
+        },
+        "phone": "1-678-456-1934",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "30.24788",
+                "long": "-20.545419"
+            },
+            "city": "fort wayne",
+            "street": "oak lawn ave",
+            "number": 526,
+            "zipcode": "10256-4532"
+        },
+        "id": 10,
+        "email": "jimmie@gmail.com",
+        "username": "jimmie_k",
+        "password": "klein*#%*",
+        "name": {
+            "firstname": "jimmie",
+            "lastname": "klein"
+        },
+        "phone": "1-104-001-4567",
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users?sort=desc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=desc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 06:04:04 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"bae-RmXgfZyGPwU9Dh6EKhIQkuNoVzY"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lg%2BN5vGlB4XJRmtfmQnb2Y6ZFp6dRjJhi2pZSjieVq6z75pxdl8AVRRWgMMK7bnfR7%2BRPqDl5LjKnWJkRIx9aM%2FKsqyFOkPwkxB4GrjDovp%2B9He2U3e95W4%2BEGe2vksPiwrt"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a153b0cb4f8b14b5-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "address": {
+            "geolocation": {
+                "lat": "30.24788",
+                "long": "-20.545419"
+            },
+            "city": "fort wayne",
+            "street": "oak lawn ave",
+            "number": 526,
+            "zipcode": "10256-4532"
+        },
+        "id": 10,
+        "email": "jimmie@gmail.com",
+        "username": "jimmie_k",
+        "password": "klein*#%*",
+        "name": {
+            "firstname": "jimmie",
+            "lastname": "klein"
+        },
+        "phone": "1-104-001-4567",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.12456",
+                "long": "20.5419"
+            },
+            "city": "miami",
+            "street": "avondale ave",
+            "number": 345,
+            "zipcode": "96378-0245"
+        },
+        "id": 9,
+        "email": "kate@gmail.com",
+        "username": "kate_h",
+        "password": "kfejk@*_",
+        "name": {
+            "firstname": "kate",
+            "lastname": "hale"
+        },
+        "phone": "1-678-456-1934",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3456",
+                "long": "10.6419"
+            },
+            "city": "mesa",
+            "street": "vally view ln",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 8,
+        "email": "william@gmail.com",
+        "username": "hopkins",
+        "password": "William56$hj",
+        "name": {
+            "firstname": "william",
+            "lastname": "hopkins"
+        },
+        "phone": "1-478-001-0890",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "10.3456",
+                "long": "20.6419"
+            },
+            "city": "fresno",
+            "street": "saddle st",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 7,
+        "email": "miriam@gmail.com",
+        "username": "snyder",
+        "password": "f238&@*$",
+        "name": {
+            "firstname": "miriam",
+            "lastname": "snyder"
+        },
+        "phone": "1-123-943-0563",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "20.1677",
+                "long": "-10.6789"
+            },
+            "city": "el paso",
+            "street": "prospect st",
+            "number": 124,
+            "zipcode": "12346-0456"
+        },
+        "id": 6,
+        "email": "david_r@gmail.com",
+        "username": "david_r",
+        "password": "3478*#54",
+        "name": {
+            "firstname": "david",
+            "lastname": "russell"
+        },
+        "phone": "1-678-345-9856",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-40.1310"
+            },
+            "city": "san Antonio",
+            "street": "adams St",
+            "number": 245,
+            "zipcode": "80796-1234"
+        },
+        "id": 5,
+        "email": "derek@gmail.com",
+        "username": "derek",
+        "password": "jklg*_56",
+        "name": {
+            "firstname": "derek",
+            "lastname": "powell"
+        },
+        "phone": "1-956-001-1945",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3467",
+                "long": "-20.1310"
+            },
+            "city": "San Antonio",
+            "street": "Hunters Creek Dr",
+            "number": 6454,
+            "zipcode": "98234-1734"
+        },
+        "id": 4,
+        "email": "don@gmail.com",
+        "username": "donero",
+        "password": "ewedon",
+        "name": {
+            "firstname": "don",
+            "lastname": "romer"
+        },
+        "phone": "1-765-789-6734",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-30.1310"
+            },
+            "city": "Cullman",
+            "street": "Frances Ct",
+            "number": 86,
+            "zipcode": "29567-1452"
+        },
+        "id": 3,
+        "email": "kevin@gmail.com",
+        "username": "kevinryan",
+        "password": "kev02937@",
+        "name": {
+            "firstname": "kevin",
+            "lastname": "ryan"
+        },
+        "phone": "1-567-094-1345",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "Lovers Ln",
+            "number": 7267,
+            "zipcode": "12926-3874"
+        },
+        "id": 2,
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        "name": {
+            "firstname": "david",
+            "lastname": "morrison"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "new road",
+            "number": 7682,
+            "zipcode": "12926-3874"
+        },
+        "id": 1,
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": {
+            "firstname": "john",
+            "lastname": "doe"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    }
+]
+Request method:	PUT
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "title": "Smart Watch",
-    "price": 129.99,
-    "description": "Fitness smartwatch with heart rate monitor and GPS.",
-    "category": "wearables",
-    "image": "https://i.pravatar.cc/103"
+    "email": "iris.jones@gmail.com",
+    "username": "Ina Jones",
+    "password": "xt7mqopj1",
+    "name": {
+        "firstname": "Marivel",
+        "lastname": "Wintheiser"
+    },
+    "address": {
+        "city": "Moseland",
+        "street": "Jolanda Club",
+        "number": 11,
+        "zipcode": "87786",
+        "geolocation": {
+            "lat": "20.842385",
+            "log": "-7.8563867"
+        }
+    },
+    "phone": "(911) 222-4895",
+    "geolocation": null
 }
-HTTP/1.1 201 Created
-Date: Thu, 02 Jul 2026 06:10:05 GMT
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 06:04:04 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 173
+Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"ad-7cxJG2tqqr8I91/KgdGp1zBexAw"
+Etag: W/"13a-H+EifCs2dcFpP+J2AUZvi6n+bNE"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6mX2rR4G1hwf7e%2FKHtehJDvW3i2MYjRUrYtCYCNrF2qhVJofudY8%2BPbbB1cm9bYngCG9Wq2L3Q08vTW1HGVmuMJKXkDmu1c2Cy4uV2m6DWy35megjc53xlxnZUxwoHET1MC8"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Rf1RBXv77984egtGWWSSuwshNnvEQ1M%2Bqy1lFBuXGp3Nei1Ul%2Blf9OhdBqG9r8gX5Bt4m0zEWChDScoIyiAmNeqQne7xseq%2Bf9kUFbMYbB6mdYSC%2Bp13OcCzOtVmXPOd3k8k"}]}
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a14b7c3ed906c3b4-SIN
+CF-RAY: a153b0ce9ee6f8dc-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
-    "id": 21,
-    "title": "Smart Watch",
-    "price": 129.99,
-    "description": "Fitness smartwatch with heart rate monitor and GPS.",
-    "image": "https://i.pravatar.cc/103",
-    "category": "wearables"
+    "email": "iris.jones@gmail.com",
+    "username": "Ina Jones",
+    "password": "xt7mqopj1",
+    "name": {
+        "firstname": "Marivel",
+        "lastname": "Wintheiser"
+    },
+    "address": {
+        "city": "Moseland",
+        "street": "Jolanda Club",
+        "number": 11,
+        "zipcode": "87786",
+        "geolocation": {
+            "lat": "20.842385",
+            "log": "-7.8563867"
+        }
+    },
+    "phone": "(911) 222-4895",
+    "geolocation": null
 }
-Request method:	POST
-Request URI:	https://fakestoreapi.com/products
+Request method:	PATCH
+Request URI:	https://fakestoreapi.com/users/1
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	<none>
+Path params:	id=1
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "title": "Portable Speaker",
-    "price": 39.99,
-    "description": "Waterproof Bluetooth speaker with 12-hour battery life.",
-    "category": "audio",
-    "image": "https://i.pravatar.cc/104"
+    "email": "loni.west@hotmail.com",
+    "username": "Moises Sauer",
+    "password": "bxhol3yg6",
+    "name": {
+        "firstname": "Jarrett",
+        "lastname": "Hahn"
+    },
+    "address": {
+        "city": "South Seanfort",
+        "street": "Clint Overpass",
+        "number": 6,
+        "zipcode": "08819-0309",
+        "geolocation": {
+            "lat": "53.667656",
+            "log": "94.101843"
+        }
+    },
+    "phone": "338-148-2478",
+    "geolocation": null
 }
-HTTP/1.1 201 Created
-Date: Thu, 02 Jul 2026 06:10:05 GMT
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 06:04:04 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 177
+Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"b1-ej93fgqpSl1mUbDPlAMk7RGz4cc"
+Etag: W/"141-Py3/M1zK5GJFmtval3PSXuDD7dY"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QRqE%2FZtDzw7%2BBFRrYfGDPz6nlYkAJkej5OwqLf%2B6bH0xM5ZpvyoVeYN2Y2WGjFJmqylaCqObWSXz3MlPdnY5%2FOaHAx3I7YDEhErxx%2Bcwo2JlswPlLsajDSs8RxsXGwTAxnb%2F"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ChrkWRjwzcnkt1sDk8wxG%2FvFE5YnhkNqyucAIbNpWt0hPiYq3OhjKAvFeLbBzxZOJL5T7ynKnPgCjQ4gddncGPgSR6T46EAMts9xOpgyu2LskvSM%2FeaPswUNzPLYDqRp9Tfs"}]}
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a14b7c414b83fcf7-SIN
+CF-RAY: a153b0d10f75f916-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
-    "id": 21,
-    "title": "Portable Speaker",
-    "price": 39.99,
-    "description": "Waterproof Bluetooth speaker with 12-hour battery life.",
-    "image": "https://i.pravatar.cc/104",
-    "category": "audio"
+    "email": "loni.west@hotmail.com",
+    "username": "Moises Sauer",
+    "password": "bxhol3yg6",
+    "name": {
+        "firstname": "Jarrett",
+        "lastname": "Hahn"
+    },
+    "address": {
+        "city": "South Seanfort",
+        "street": "Clint Overpass",
+        "number": 6,
+        "zipcode": "08819-0309",
+        "geolocation": {
+            "lat": "53.667656",
+            "log": "94.101843"
+        }
+    },
+    "phone": "338-148-2478",
+    "geolocation": null
 }

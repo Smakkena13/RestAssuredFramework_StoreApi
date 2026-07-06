@@ -30,7 +30,7 @@ public class Payloads {
     }
 
     //user
-    public UserPojo UserPayload(){
+    public static UserPojo UserPayload(){
 
         String firstname=faker.name().firstName();
         String lastname=faker.name().lastName();

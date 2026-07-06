@@ -7,7 +7,12 @@
     </listeners>
     <test name="test1">
         <classes>
-            <class name="testcases.ProductDataDriven"></class>
+            <class name="testcases.ProductTests"></class>
+        </classes>
+    </test>
+    <test name="test2">
+        <classes>
+            <class name="testcases.UserTests"></class>
         </classes>
     </test>
 </suite>
